@@ -26,6 +26,9 @@
 #define PRODUCT         The foobar Keyboard
 #define DESCRIPTION     A split 30 key keyboard
 
+/* From the internet, to make it work in Android */
+#define USB_MAX_POWER_CONSUMPTION 500
+
 #define USE_SERIAL
 
 /* serial.c configuration for split keyboard */

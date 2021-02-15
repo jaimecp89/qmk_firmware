@@ -26,12 +26,16 @@ NKRO_ENABLE = yes           # USB Nkey Rollover
 BACKLIGHT_ENABLE = no       # Enable keyboard backlight functionality on B7 by default
 RGBLIGHT_ENABLE = no        # Enable keyboard RGB underglow
 MIDI_ENABLE = no            # MIDI support
-UNICODE_ENABLE = no         # Unicode
+UNICODEMAP_ENABLE = no      # Unicode map
 BLUETOOTH_ENABLE = no       # Enable Bluetooth with the Adafruit EZ-Key HID
 AUDIO_ENABLE = no           # Audio output on port C6
 FAUXCLICKY_ENABLE = no      # Use buzzer to emulate clicky switches
 
 # Enable generic behavior for split boards
 SPLIT_KEYBOARD = yes
+
+# Enable combos (chording)
+FORCE_NKRO = yes
+COMBO_ENABLE = yes
 
 LAYOUTS = ortho_3x10
